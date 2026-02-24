@@ -58,3 +58,55 @@ Veri Yapıları ve Algoritmalar kapsamında yaptığım öğrenme projeleri.
     Arama algoritmaları:
     1. Binary Search: Sıralı bir dizide hedef değeri bulmak için kullanılır. Diziyi sürekli olarak ikiye bölerek arama yapar.
     2. Linear Search: Dizinin her elemanını sırayla kontrol ederek hedef değeri bulmaya çalışır.
+    
+11) **arrays.py**
+    Diziler (listeler) ile ilgili temel işlemleri içeren çalışma dosyasıdır.
+
+    İçerdiği konular (genel olarak):
+    - Liste oluşturma
+    - Eleman ekleme / silme
+    - Eleman görüntüleme
+    - İndeks ile erişim
+    - Dictionary (sözlük) örnekleri
+    - `array` modülü / `numpy` ile temel denemeler
+    - Sınıf (`class`) yapısı ile menü tabanlı kullanım örnekleri
+
+   
+
+12) **baglıListe.py** (Tekli Bağlı Liste / Singly Linked List)
+Bu dosyada temel bir tekli bağlı liste yapısı bulunmaktadır.
+
+#### İçerdiği yapılar
+- `Node` sınıfı
+- `tekliBagliListe` sınıfı
+- Menü tabanlı kullanım
+
+#### Yapabildiği işlemler
+- Liste oluşturma (kullanıcıdan veri alarak)
+- Listeyi yazdırma
+- Menü üzerinden işlem seçme
+
+> Kullanıcı veri girişini `"bitti"` yazarak sonlandırabilir.
+
+---
+
+13) **circularLinkedList.py (Dairesel Bağlı Liste / Circular Linked List)
+Bu dosyada dairesel bağlı liste yapısına yönelik daha kapsamlı bir uygulama bulunmaktadır.
+
+#### İçerdiği yapılar
+- `Node` sınıfı
+- `ClinkendList` sınıfı
+- Menü tabanlı kullanım
+
+#### Temel işlemler
+- Listenin elemanlarını yazdırma
+- Başa ekleme
+- Sona ekleme
+- Belirli bir elemandan sonra ekleme
+- Belirli bir elemandan önce ekleme
+- İlk düğümü silme
+- Son düğümü silme
+- Belirli düğümü silme
+- Belirli bir düğümden sonra / önce düğüm silme
+
+> Bu dosya eğitim amaçlı geliştirildiği için bazı isimlendirme/yazım farklılıkları bulunabilir (ör. method adları / menü metinleri). Mantık olarak bağlı liste işlemlerini pratik etmek için uygundur.
